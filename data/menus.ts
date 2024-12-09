@@ -44,13 +44,5 @@ export const menus =
 				"line": Panorama,
 				"fill": PanoramaFill
 			}
-		},
-		{
-			"name": "Wishes",
-			"id": "wishes",
-			"icon": {
-				"line": Chat,
-				"fill": ChatFill
-			}
 		}
 	]
