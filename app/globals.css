@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black: #333333;
+  --gray: #515151;
+  --white: #f9f4ef;
+  --maroon-dark: #800000;
+  --maroon-light: #b03a2e;
+  --green: #234a11;
+
+  --black-rgb: 51, 51, 51; /* #333333 */
+  --gray-rgb: 81, 81, 81; /* #515151 */
+  --white-rgb: 249, 244, 239; /* #f9f4ef */
+  --maroon-dark-rgb: 128, 0, 0; /* #800000 */
+  --maroon-light-rgb: 176, 58, 46; /* #b03a2e */
+  --green-rgb: 35, 74, 17; /* #234a11 */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+  font-family: var(--font-delius);
+}
+
+html {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  color: var(--black);
+  background-color: var(--white);
+}
+
+/* Scrollbar */
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Menyembunyikan scrollbar di browser berbasis Webkit (Chrome, Safari) */
+}
+
+.hide-scrollbar {
+  overflow-y: scroll; /* Pastikan kontennya bisa discroll */
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-left: 1px solid rgba(128, 0, 0, 0.5);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  margin: 4px 0;
+  background-color: rgba(128, 0, 0, 0.5);
+  border-radius: 4px;
+  width: 8px; /* Lebar thumb */
+  height: 16px; /* Tinggi thumb */
+  transition: all;
+  transition-duration: 300;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(128, 0, 0, 0.7);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
