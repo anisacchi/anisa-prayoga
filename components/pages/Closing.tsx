@@ -26,7 +26,7 @@ const Closing = () => {
         <p className='mb-10 text-sm italic text-center'>Wassalamualaikum Wr. Wb.</p>
       </Scale>
 
-      <Scale threshold={0.8} delay={0.2}>
+      {/* <Scale threshold={0.8} delay={0.2}>
         <p className='mb-2 text-sm text-center'>Kami yang berbahagia</p>
       </Scale>
 
@@ -34,7 +34,7 @@ const Closing = () => {
         <p className='font-great-vibes text-3xl text-center'>
           Anisa <span className='text-sm'>&</span> Prayoga
         </p>
-      </Scale>
+      </Scale> */}
 
       <Wagging
         amplitude={6}
