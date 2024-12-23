@@ -34,7 +34,7 @@ const Gallery = () => {
   }, [currentIndex]);
 
   return (
-    <div className='relative w-full'>
+    <div className='relative w-full mb-8'>
       <div className='w-full px-10 bg-white'>
         <div className='relative flex justify-center items-center p-[6.6%]'>
           <Image

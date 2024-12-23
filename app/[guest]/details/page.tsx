@@ -33,11 +33,8 @@ export default function DetailsPage() {
         <Map />
       </section>
 
-      <section id='moments' data-index='3' className='mb-8'>
+      <section id='moments' data-index='3' className='mb-24'>
         <Gallery />
-      </section>
-
-      <section id='wishes' data-index='4' className='mb-24'>
         <Closing />
       </section>
     </>
