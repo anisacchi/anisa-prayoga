@@ -24,8 +24,8 @@
     "name": "Yulianti"
   },
 	{
-    "url": "widayanti",
-    "name": "Widayanti"
+    "url": "widayati",
+    "name": "Widayati"
   },
 	{
     "url": "santi",
@@ -92,11 +92,15 @@
     "name": "Supriyatin, S.Pd"
   },
 	{
-    "url": "tri",
+    "url": "aan",
     "name": "Tri Handayani, S.Pd"
   },
 	{
     "url": "kamsiyah",
     "name": "Kamsiyah, S.Pd"
-  }
+  },
+	{
+		"url": "Ana",
+		"name": "Ana"
+	}
 ]
